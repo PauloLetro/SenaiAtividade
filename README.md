@@ -53,23 +53,20 @@
      
 
      untracket ------>>> Stage
+
      
-     
-     
+
      (Caso esqueçamos de colocar a mensagem, o editor vim será aberto, para fechar é só digitar esc e depois escrever :q! e é só fazer o commit de novo)
-     
+
      ![coomit](C:\Users\paulo\Desktop\coomit.PNG)
-     
-     
 
-
-   * Para verificar todos os meus commits:
+     - Para verificar todos os meus commits:
 
      **git log**    ou      **git log --oneline**(Esse comando mostra um resumo dos commit)
 
-     
 
-     
+
+
 
 - [x] Associando nosso repositório local ao repositório remoto:
 
@@ -169,64 +166,77 @@
    - Juntar as duas Branch
 
      **git merge nomeDaBranchNova(aquela por exemplo que pode ter se originado da master)**
-  
+    
+    
+    
   - Criando Tag
   
     git tag -a <nome da tag> -m <comentário>
+    
+    
   
-  -Publicando Tag
+  - Publicando Tag
   
-   git push origin --tags
+     **git push origin --tags**
   
-  -Mostrando Tag
+    
   
-    git show <nome da tag>
+  - Mostrando Tag
   
-  -Executando o Merge e resolvendo conflitos
-  
-      .git merge <nome da branch que você quer adicionar a outra que você esta em checkout no momento>
-      .Resolvemos o conflito
-      .Damos o git add .
-      .git commit -m "nome do commit"
-      git push origin <nome da branch atual em checkout>
+      **git show <nome da tag>**
   
   
   
-  :q sai da tela do VIM
+  - [x] Executando o Merge e resolvendo conflitos
+  
+  
+  - ```
+    git merge <nome da branch que você quer adicionar a outra que você esta em checkout no momento> - Resolvemos o conflito - Damos o git add . - git commit -m "nome do commit" - git push origin <nome da branch atual em checkout>
+    
+    ```
   
 
-   
+  - [x] Atualizando com todas as branch criadas
 
-   
+  - **git fetch**
 
-   
+  
 
-   
+  - **:q sai da tela do VIM**
 
-   
+  
 
-   
+  
 
-   
+  
 
-   
+  
 
-   
+  
 
-   
+  
 
-   
+  
 
-   
+  
 
-   
+  
 
-   
+  
 
-   
-
-   
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
    ​	
 
 ​    
